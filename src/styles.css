@@ -1,0 +1,56 @@
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+body{
+  font-size: 16px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  background-image: url(./sky.jpg);
+  background-repeat: no-repeat;
+  background-size: 175rem 90rem;
+}
+
+.card{
+  margin: 25vh auto;
+  width: 30rem;
+  height: 40rem;
+  box-shadow: 1px 2px 8px solid black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgba(119, 170, 227, .7);
+  border-radius: 1rem;
+}
+
+img{
+  width: 30%;
+}
+.sky{
+  text-transform: uppercase;
+}
+
+.button{
+  width: 10rem;
+  height: 2.5rem;
+  background-color: transparent;
+  text-transform: uppercase;
+  border: none;
+  border: solid 2px black;
+  border-radius: 51px;
+}
+
+.button:hover{
+  background-color: cornflowerblue;
+  cursor: pointer;
+  color: #fff;
+}
+
+.hiden{
+  display: none;
+}
+
+.visibility{
+  display: block;
+}
